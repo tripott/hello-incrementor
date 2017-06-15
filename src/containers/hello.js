@@ -8,7 +8,7 @@ class Hello extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="white">
         Hi, {this.props.firstName}{' '} Are you cool?{' '}
         {this.state.isCool ? 'yes' : 'no'}
       </div>
